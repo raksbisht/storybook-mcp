@@ -1,0 +1,45 @@
+{
+  "name": "@raksbisht/storybook-mcp",
+  "version": "1.0.1",
+  "author": "Rakesh Bisht",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raksbisht/storybook-mcp.git"
+  },
+  "description": "MCP server that connects to any Storybook. Browse components, fetch docs and examples, search stories, and capture screenshots.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "storybook-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "npx playwright install chromium"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "storybook",
+    "storybook-docs",
+    "component-documentation",
+    "component-library",
+    "ui-components",
+    "playwright",
+    "ai-assistant",
+    "documentation",
+    "design-system"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "playwright": "^1.41.0",
+    "turndown": "^7.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
