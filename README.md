@@ -1,4 +1,7 @@
-# Storybook MCP
+<h1 align="center">Storybook MCP</h1>
+<p align="center">
+  <img src="assets/logo.png" alt="Storybook MCP logo" width="280">
+</p>
 
 A **universal MCP server** that connects to **any Storybook site** and extracts documentation in real-time using Playwright.
 
