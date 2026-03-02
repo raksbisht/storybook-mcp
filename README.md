@@ -15,6 +15,10 @@ Use it with **any AI or client that supports MCP** (Model Context Protocol)—Cu
 - **Single file** - Just `index.js`, no build step
 
 ## MCP Configuration
+### Cursor — one-click install
+
+[![Add MCP server to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en-US/install-mcp?name=storybook-mcp&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsIkByYWtzYmlzaHQvc3Rvcnlib29rLW1jcCJdLCJlbnYiOnsiU1RPUllCT09LX1VSTCI6Imh0dHBzOi8vc3Rvcnlib29rLmpzLm9yZyJ9fQ==)
+
 
 ### Using npx (recommended)
 
